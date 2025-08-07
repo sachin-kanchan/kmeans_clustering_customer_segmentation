@@ -23,8 +23,8 @@ __pycache__/
 .Spotlight-V100
 
 
-# ========================
-# Large Data Files
-# ========================
+# Ignore large dataset files
 *.csv
 
+# Ignore HTML files
+*.html

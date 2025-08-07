@@ -1,0 +1,30 @@
+# ========================
+# General Python Files
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+# (and all the other python rules from the previous answer...)
+
+
+# ========================
+# macOS Specific Files
+# ========================
+# Ignore macOS system files that store custom attributes of a folder
+.DS_Store
+
+# Ignore metadata files created on non-native filesystems (like your external drive)
+._*
+
+# Ignore other macOS-specific temporary or metadata folders
+.AppleDouble
+.LSOverride
+.Trashes
+.Spotlight-V100
+
+
+# ========================
+# Large Data Files
+# ========================
+*.csv
+
